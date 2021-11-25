@@ -3,7 +3,8 @@ class clear:
         self.clear = "\033[H\033[J"
     def __call__(self):
         print(self.clear, end="")
-   
+
+
 clear = clear()
 
 """
